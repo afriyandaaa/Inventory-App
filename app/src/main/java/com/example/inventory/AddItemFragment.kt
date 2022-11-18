@@ -92,7 +92,7 @@ class AddItemFragment : Fragment() {
                 binding.itemCount.text.toString(),
                 binding.ItemExpired.text.toString(),
             )
-            //val action untuk kembali le ItemListFragment
+            //val action untuk kembali le ItemListFragment.
             val action = AddItemFragmentDirections.actionAddItemFragmentToItemListFragment()
             findNavController().navigate(action)
         }
